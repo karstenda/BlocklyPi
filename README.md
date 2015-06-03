@@ -1,4 +1,3 @@
 # BlocklyPi
 
-by Iris Roelens
-and Karsten Daemen
+By Iris Roelens and Karsten Daemen.
