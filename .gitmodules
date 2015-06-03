@@ -1,0 +1,6 @@
+[submodule "WebContent/blockly"]
+	path = WebContent/blockly
+	url = https://github.com/google/blockly.git
+[submodule "WebContent/js_interpreter"]
+	path = WebContent/js_interpreter
+	url = https://github.com/NeilFraser/JS-Interpreter.git
