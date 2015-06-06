@@ -41,7 +41,7 @@ sudo python server.py
 On your raspberry, navigate to `http://localhost:8080` in order to verify that the installation was succesfull.
 
 ### Step 3: Start on boot
-You may want to start BlocklyPi on startup of your RaspberryPi. To do this you need to edit */etc/rc.local* file. A At the bottom of this file, you'll find the line `exit 0`, write before this:
+You may want to start BlocklyPi on startup of your RaspberryPi. To do this you need to edit `/etc/rc.local` file. A At the bottom of this file, you'll find the line `exit 0`, write before this:
 ```shell
 # Starting the BlocklyPi server from it's installation directory.
 cd /home/pi/bin/BlocklyPi
