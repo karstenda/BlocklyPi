@@ -1,0 +1,22 @@
+.container-fluid {
+    padding: 0px;
+}
+
+h1 {
+    margin: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#buttonGroup {
+    margin: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#errorMsgContainer {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 11px;
+    text-align: center;
+}
