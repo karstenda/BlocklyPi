@@ -29,12 +29,12 @@ On your Raspberry Pi, navigate to the desired directory where you want to instal
 mkdir \home\pi\bin
 cd \home\pi\bin
 ```
-Download the BlocklyPi project.
+Download the BlocklyPi project from GitHub.
 ```shell
 git clone https://github.com/karstenda/BlocklyPi.git
 cd BlocklyPi
 ```
-Start the server, you need super user privileges in order to acces the GPIO pins ...
+To start the server, execute the `server.py` python script. Super user privileges are required in order to acces the GPIO pins ...
 ```shell
 sudo python server.py
 ```
