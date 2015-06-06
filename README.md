@@ -24,7 +24,7 @@ sudo rm -rf RPi.GPIO-0.*
 ```
 
 ### Step 2: Download and Install BlocklyPi
-On your Raspberry Pi, navigate to the desired directory where you want to install BlocklyPi (we use *\home\pi\bin*).
+On your Raspberry Pi, navigate to the desired directory where you want to install BlocklyPi (we use *"\home\pi\bin"*).
 ```shell
 mkdir \home\pi\bin
 cd \home\pi\bin
