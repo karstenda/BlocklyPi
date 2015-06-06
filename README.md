@@ -2,7 +2,6 @@
 
 By *Iris Roelens* and *Karsten Daemen*.
 
-## What?
 
 This project contains a python application that is meant to be deployed on a [Raspberry Pi](https://www.raspberrypi.org/) and will allow users to program it using [Blockly](https://developers.google.com/blockly/). We provide custom blocks for controlling components on the GPIO pins like motors and light sensors.
 
