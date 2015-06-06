@@ -38,7 +38,7 @@ To start the server, execute the `server.py` python script. Super user privilege
 ```shell
 sudo python server.py
 ```
-On your raspberry, navigate to *http://localhost:8080* in order to verify that the installation was succesfull.
+On your raspberry, navigate to `http://localhost:8080` in order to verify that the installation was succesfull.
 
 ### Step 3: Start server on boot
 You may want to start BlocklyPi on startup of your RaspberryPi. To do this you need to edit */etc/rc.local* file. A At the bottom of this file, you'll find the line `exit 0`, write before this:
