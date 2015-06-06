@@ -7,7 +7,7 @@ This project contains a python application that is meant to be deployed on a [Ra
 
 ## Installation
 
-### Step 1: Install dependencies
+### Step 1: Dependencies
 BlocklyPi only depends on the python [RPi.GPIO](https://pypi.python.org/pypi/RPi.GPIO) library (0.5.11). You therefore need to install this on your raspberry Pi. You can either do this through the repository (debian):
 ```shell
 sudo apt-get update
@@ -23,7 +23,7 @@ cd ..
 sudo rm -rf RPi.GPIO-0.*
 ```
 
-### Step 2: Download and Install BlocklyPi
+### Step 2: Download and Install
 On your Raspberry Pi, navigate to the desired directory where you want to install BlocklyPi (we use `\home\pi\bin`).
 ```shell
 mkdir \home\pi\bin
@@ -40,7 +40,7 @@ sudo python server.py
 ```
 On your raspberry, navigate to `http://localhost:8080` in order to verify that the installation was succesfull.
 
-### Step 3: Start server on boot
+### Step 3: Start on boot
 You may want to start BlocklyPi on startup of your RaspberryPi. To do this you need to edit */etc/rc.local* file. A At the bottom of this file, you'll find the line `exit 0`, write before this:
 ```shell
 # Starting the BlocklyPi server from it's installation directory.
